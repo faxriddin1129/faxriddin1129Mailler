@@ -18,7 +18,7 @@ if (isset($_POST['submit'])){
     $mail->SMTPAuth = true;
     $mail->SMTPSecure = 'tls';
     $mail->Username = 'faxbob1129@gmail.com';
-    $mail->Password = 'pfmnbwrnzfeoqzxj';
+    $mail->Password = 'pfmnbwrnzfeoqzxj1212';
     $mail->Subject = 'THIS MESSAGE IS F-SOFT';
     $mail->Body = $text;
     $mail->isHTML(true);
